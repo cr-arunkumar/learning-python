@@ -111,3 +111,23 @@ z = -5j
 print(type(x),"Complex",x.real)
 print(type(y))
 print(type(z))
+
+# Boolean data types 
+x=[]
+print(type(x),"empty list []",bool(x))
+x={}
+print(type(x),"empty dict {}",bool(x))
+x=None
+print(type(x),"None",bool(x))
+x=0
+print(type(x),"number with  0",bool(x))
+x=()
+print(type(x),"empty tuple  ()",bool(x)) 
+
+def my_bool_func(x):
+    return bool(x)
+print(my_bool_func(1));
+print(my_bool_func(0));
+
+x=4000
+print(isinstance(x,bool))
