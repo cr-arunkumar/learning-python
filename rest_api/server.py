@@ -41,7 +41,6 @@ def delete_post_id_json(post_id):
     write_json_file(json_file_path, data)
 
 
-posts = read_json_file(json_file_path)
 @app.route('/posts', methods=['GET'])
 def get_posts():
     return jsonify(read_json_file(file_path=json_file_path))
@@ -55,6 +54,7 @@ def create_post():
 
 @app.route('/posts/<int:post_id>', methods=['PUT'])
 def update_post(post_id):
+    posts = read_json_file(file_path=json_file_path)
     post = next((post for post in posts if post["id"] == post_id), None)
     if post is not None:
         updated_post = request.get_json()
@@ -75,6 +75,7 @@ def delete_post(post_id):
 @app.route('/posts/<int:post_id>', methods=['GET'])
 def get_post(post_id):
     try:
+        posts = read_json_file(file_path=json_file_path)
         post = next((post for post in posts if post["id"] == post_id), None)
         if post is not None:
             post_data = read_json_file_id(file_path=json_file_path, post_id=post_id)
