@@ -1,0 +1,1702 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "importPath": "getpass",
+        "description": "getpass",
+        "isExtraImport": true,
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "OptionParser",
+        "importPath": "optparse",
+        "description": "optparse",
+        "isExtraImport": true,
+        "detail": "optparse",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "print_",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "peewee",
+        "description": "peewee",
+        "isExtraImport": true,
+        "detail": "peewee",
+        "documentation": {}
+    },
+    {
+        "label": "CockroachDatabase",
+        "importPath": "playhouse.cockroachdb",
+        "description": "playhouse.cockroachdb",
+        "isExtraImport": true,
+        "detail": "playhouse.cockroachdb",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "playhouse.reflection",
+        "description": "playhouse.reflection",
+        "isExtraImport": true,
+        "detail": "playhouse.reflection",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "camelcase",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "camelcase",
+        "description": "camelcase",
+        "detail": "camelcase",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "Pool",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "kind": 6,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "class BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "UnknownField",
+        "kind": 6,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "class UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],\n    MySQLDatabase: ['mysql', 'mysqldb'],\n    PostgresqlDatabase: ['postgres', 'postgresql'],\n    SqliteDatabase: ['sqlite', 'sqlite3'],\n}\nDATABASE_MAP = dict((value, key)",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "make_introspector",
+        "kind": 2,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "def make_introspector(database_type, database_name, **kwargs):\n    if database_type not in DATABASE_MAP:\n        err('Unrecognized database, must be one of: %s' %\n            ', '.join(DATABASE_MAP.keys()))\n        sys.exit(1)\n    schema = kwargs.pop('schema', None)\n    DatabaseClass = DATABASE_MAP[database_type]\n    db = DatabaseClass(database_name, **kwargs)\n    return Introspector.from_database(db, schema=schema)\ndef print_models(introspector, tables=None, preserve_order=False,",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "print_models",
+        "kind": 2,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "def print_models(introspector, tables=None, preserve_order=False,\n                 include_views=False, ignore_unknown=False, snake_case=True):\n    database = introspector.introspect(table_names=tables,\n                                       include_views=include_views,\n                                       snake_case=snake_case)\n    db_kwargs = introspector.get_database_kwargs()\n    header = HEADER % (\n        introspector.get_additional_imports(),\n        introspector.get_database_class().__name__,\n        introspector.get_database_name(),",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "print_header",
+        "kind": 2,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "def print_header(cmd_line, introspector):\n    timestamp = datetime.datetime.now()\n    print_('# Code generated by:')\n    print_('# python -m pwiz %s' % cmd_line)\n    print_('# Date: %s' % timestamp.strftime('%B %d, %Y %I:%M%p'))\n    print_('# Database: %s' % introspector.get_database_name())\n    print_('# Peewee version: %s' % peewee_version)\n    print_('')\ndef err(msg):\n    sys.stderr.write('\\033[91m%s\\033[0m\\n' % msg)",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "err",
+        "kind": 2,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "def err(msg):\n    sys.stderr.write('\\033[91m%s\\033[0m\\n' % msg)\n    sys.stderr.flush()\ndef get_option_parser():\n    parser = OptionParser(usage='usage: %prog [options] database_name')\n    ao = parser.add_option\n    ao('-H', '--host', dest='host')\n    ao('-p', '--port', dest='port', type='int')\n    ao('-u', '--user', dest='user')\n    ao('-P', '--password', dest='password', action='store_true')",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "get_option_parser",
+        "kind": 2,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "def get_option_parser():\n    parser = OptionParser(usage='usage: %prog [options] database_name')\n    ao = parser.add_option\n    ao('-H', '--host', dest='host')\n    ao('-p', '--port', dest='port', type='int')\n    ao('-u', '--user', dest='user')\n    ao('-P', '--password', dest='password', action='store_true')\n    engines = sorted(DATABASE_MAP)\n    ao('-e', '--engine', dest='engine', choices=engines,\n       help=('Database type, e.g. sqlite, mysql, postgresql or cockroachdb. '",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "get_connect_kwargs",
+        "kind": 2,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "def get_connect_kwargs(options):\n    ops = ('host', 'port', 'user', 'schema')\n    kwargs = dict((o, getattr(options, o)) for o in ops if getattr(options, o))\n    if options.password:\n        kwargs['password'] = getpass()\n    return kwargs\nif __name__ == '__main__':\n    raw_argv = sys.argv\n    parser = get_option_parser()\n    options, args = parser.parse_args()",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "HEADER",
+        "kind": 5,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "HEADER = \"\"\"from peewee import *%s\ndatabase = %s('%s'%s)\n\"\"\"\nBASE_MODEL = \"\"\"\\\nclass BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "database = %s('%s'%s)\n\"\"\"\nBASE_MODEL = \"\"\"\\\nclass BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_MODEL",
+        "kind": 5,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "BASE_MODEL = \"\"\"\\\nclass BaseModel(Model):\n    class Meta:\n        database = database\n\"\"\"\nUNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "UNKNOWN_FIELD",
+        "kind": 5,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "UNKNOWN_FIELD = \"\"\"\\\nclass UnknownField(object):\n    def __init__(self, *_, **__): pass\n\"\"\"\nDATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],\n    MySQLDatabase: ['mysql', 'mysqldb'],\n    PostgresqlDatabase: ['postgres', 'postgresql'],\n    SqliteDatabase: ['sqlite', 'sqlite3'],\n}",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_ALIASES",
+        "kind": 5,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "DATABASE_ALIASES = {\n    CockroachDatabase: ['cockroach', 'cockroachdb', 'crdb'],\n    MySQLDatabase: ['mysql', 'mysqldb'],\n    PostgresqlDatabase: ['postgres', 'postgresql'],\n    SqliteDatabase: ['sqlite', 'sqlite3'],\n}\nDATABASE_MAP = dict((value, key)\n                    for key in DATABASE_ALIASES\n                    for value in DATABASE_ALIASES[key])\ndef make_introspector(database_type, database_name, **kwargs):",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_MAP",
+        "kind": 5,
+        "importPath": ".venv.bin.pwiz",
+        "description": ".venv.bin.pwiz",
+        "peekOfCode": "DATABASE_MAP = dict((value, key)\n                    for key in DATABASE_ALIASES\n                    for value in DATABASE_ALIASES[key])\ndef make_introspector(database_type, database_name, **kwargs):\n    if database_type not in DATABASE_MAP:\n        err('Unrecognized database, must be one of: %s' %\n            ', '.join(DATABASE_MAP.keys()))\n        sys.exit(1)\n    schema = kwargs.pop('schema', None)\n    DatabaseClass = DATABASE_MAP[database_type]",
+        "detail": ".venv.bin.pwiz",
+        "documentation": {}
+    },
+    {
+        "label": "india",
+        "kind": 5,
+        "importPath": "fundamentals.If-else",
+        "description": "fundamentals.If-else",
+        "peekOfCode": "india = [\"ahmedabad\",\"Surat\",\"mumbai\", \"banglore\", \"chennai\", \"delhi\"]\npakistan = [\"lahore\", \"karachi\", \"islamabad\"]\nbangladesh = [\"dhaka\", \"khulna\", \"rangpur\"]\nmy_city = str(input(\"Enter Your city name: \"))\nif my_city.lower() in india:\n    print(f\"Your city {my_city} belongs to india\")\nelif my_city.lower() in pakistan:\n    print(f\"Your city {my_city} belongs to pakistan\")\nelif my_city.lower() in bangladesh:\n    print(f\"Your city {my_city} belongs to bangladesh\")",
+        "detail": "fundamentals.If-else",
+        "documentation": {}
+    },
+    {
+        "label": "pakistan",
+        "kind": 5,
+        "importPath": "fundamentals.If-else",
+        "description": "fundamentals.If-else",
+        "peekOfCode": "pakistan = [\"lahore\", \"karachi\", \"islamabad\"]\nbangladesh = [\"dhaka\", \"khulna\", \"rangpur\"]\nmy_city = str(input(\"Enter Your city name: \"))\nif my_city.lower() in india:\n    print(f\"Your city {my_city} belongs to india\")\nelif my_city.lower() in pakistan:\n    print(f\"Your city {my_city} belongs to pakistan\")\nelif my_city.lower() in bangladesh:\n    print(f\"Your city {my_city} belongs to bangladesh\")\nelse:",
+        "detail": "fundamentals.If-else",
+        "documentation": {}
+    },
+    {
+        "label": "bangladesh",
+        "kind": 5,
+        "importPath": "fundamentals.If-else",
+        "description": "fundamentals.If-else",
+        "peekOfCode": "bangladesh = [\"dhaka\", \"khulna\", \"rangpur\"]\nmy_city = str(input(\"Enter Your city name: \"))\nif my_city.lower() in india:\n    print(f\"Your city {my_city} belongs to india\")\nelif my_city.lower() in pakistan:\n    print(f\"Your city {my_city} belongs to pakistan\")\nelif my_city.lower() in bangladesh:\n    print(f\"Your city {my_city} belongs to bangladesh\")\nelse:\n    print(\"i won't able to tell about your city , which contry its belongs to\")",
+        "detail": "fundamentals.If-else",
+        "documentation": {}
+    },
+    {
+        "label": "my_city",
+        "kind": 5,
+        "importPath": "fundamentals.If-else",
+        "description": "fundamentals.If-else",
+        "peekOfCode": "my_city = str(input(\"Enter Your city name: \"))\nif my_city.lower() in india:\n    print(f\"Your city {my_city} belongs to india\")\nelif my_city.lower() in pakistan:\n    print(f\"Your city {my_city} belongs to pakistan\")\nelif my_city.lower() in bangladesh:\n    print(f\"Your city {my_city} belongs to bangladesh\")\nelse:\n    print(\"i won't able to tell about your city , which contry its belongs to\")",
+        "detail": "fundamentals.If-else",
+        "documentation": {}
+    },
+    {
+        "label": "MyIterator",
+        "kind": 6,
+        "importPath": "fundamentals.Iterators",
+        "description": "fundamentals.Iterators",
+        "peekOfCode": "class MyIterator:\n    def __init__(self):\n        self.index = 0\n    def __iter__(self):\n        return self\n    def __next__(self):\n            if self.index <10:\n              self.index += 1\n              return self.index\n            else:",
+        "detail": "fundamentals.Iterators",
+        "documentation": {}
+    },
+    {
+        "label": "outer_function",
+        "kind": 2,
+        "importPath": "fundamentals.Iterators",
+        "description": "fundamentals.Iterators",
+        "peekOfCode": "def outer_function():\n    def inner_function():\n        global y  # accessing global variable inside inner function\n        y = 15\n        print(\"Inner function:\", y)\n    inner_function()\n    print(\"Outer function:\", y)\nprint(\"Global variable:\", y)\nouter_function()\nprint(\"Global variable:\", y)",
+        "detail": "fundamentals.Iterators",
+        "documentation": {}
+    },
+    {
+        "label": "outer_function",
+        "kind": 2,
+        "importPath": "fundamentals.Iterators",
+        "description": "fundamentals.Iterators",
+        "peekOfCode": "def outer_function():\n    x = 10\n    def inner_function():\n        nonlocal x \n        x = 20\n    inner_function()\n    return x\nprint(\"Value\",outer_function())",
+        "detail": "fundamentals.Iterators",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "fundamentals.Iterators",
+        "description": "fundamentals.Iterators",
+        "peekOfCode": "my_list = [1, 2, 3, 4, 5]\nmy_iterator = MyIterator()\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))",
+        "detail": "fundamentals.Iterators",
+        "documentation": {}
+    },
+    {
+        "label": "my_iterator",
+        "kind": 5,
+        "importPath": "fundamentals.Iterators",
+        "description": "fundamentals.Iterators",
+        "peekOfCode": "my_iterator = MyIterator()\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))\nprint(next(my_iterator))",
+        "detail": "fundamentals.Iterators",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "class Animal:\n    # __init__ is a special method in Python classes. \n    # It is called when an object is created from the class.\n    def __init__(self, name, sound):\n        self.name = name\n        self.sound = sound\n    def sound(self):\n        if self.sound==\"cat\":\n            return \"Meow!\"\n        elif self.sound==\"dog\":",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "Cat",
+        "kind": 6,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "class Cat(Animal):\n    def __init__(self, name, sound, color):\n        super().__init__(name, sound)\n        self.color = color\n    def __str__(self):\n        return f\"{self.name} is a {self.color} cat.it makse {self.sound} sound.\"\nmy_cat = Cat(\"Whiskers\", \"Meow\", \"Black\")\nprint(my_cat)\nmy_dog = Animal(\"Buddy\",\"Woof\")\nprint(my_dog.sound)",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "class Vehicle:\n    def __init__(self):\n        self.default_wheels = 4\n        self.default_color = \"White\"\n    def general_usage(self):\n        print(\"general use: transporation\")\nclass Car(Vehicle):\n    def __init__(self):\n        self.wheels =44\n        super().__init__()  # This will call the parent's __init__() function.",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "class Car(Vehicle):\n    def __init__(self):\n        self.wheels =44\n        super().__init__()  # This will call the parent's __init__() function.\n        print(self.default_wheels, self.default_color)\n        self.has_roof = True\n    def specific_usage(self):\n        self.general_usage()\n        print(\"specific use: driving\")\nclass MotorCycle(Vehicle):",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "MotorCycle",
+        "kind": 6,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "class MotorCycle(Vehicle):\n    def __init__(self):\n        print(\"I'm motor cycle\")\n        self.wheels = 2\n        self.has_roof = False\n    def specific_usage(self):\n        self.general_usage()\n        print(\"specific use: road trip, racing\")\nc = Car()\nm = MotorCycle()",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "my_cat",
+        "kind": 5,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "my_cat = Cat(\"Whiskers\", \"Meow\", \"Black\")\nprint(my_cat)\nmy_dog = Animal(\"Buddy\",\"Woof\")\nprint(my_dog.sound)\nprint(\"----------------------------------------------------------------\")\nclass Vehicle:\n    def __init__(self):\n        self.default_wheels = 4\n        self.default_color = \"White\"\n    def general_usage(self):",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "my_dog",
+        "kind": 5,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "my_dog = Animal(\"Buddy\",\"Woof\")\nprint(my_dog.sound)\nprint(\"----------------------------------------------------------------\")\nclass Vehicle:\n    def __init__(self):\n        self.default_wheels = 4\n        self.default_color = \"White\"\n    def general_usage(self):\n        print(\"general use: transporation\")\nclass Car(Vehicle):",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "c = Car()\nm = MotorCycle()\nprint(issubclass(Car,Vehicle))\nprint(issubclass(Car,MotorCycle))\n# The child's __init__() function overrides the inheritance of the parent's __init__() function.",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "fundamentals.class_object",
+        "description": "fundamentals.class_object",
+        "peekOfCode": "m = MotorCycle()\nprint(issubclass(Car,Vehicle))\nprint(issubclass(Car,MotorCycle))\n# The child's __init__() function overrides the inheritance of the parent's __init__() function.",
+        "detail": "fundamentals.class_object",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "class MyClass:\n    pass\nprint(type(MyClass),\"My class\")\n# 12 Instance Type: object\nx=MyClass()\nprint(type(x))\n# 13 Type Type:      type\nx=type(int)\nprint(type(x))\n# 14 Generator Type: generator",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "def my_function():\n    pass\nprint(type(my_function))\n# 11 Class Type:    class\nclass MyClass:\n    pass\nprint(type(MyClass),\"My class\")\n# 12 Instance Type: object\nx=MyClass()\nprint(type(x))",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "my_generator",
+        "kind": 2,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "def my_generator():\n    yield 1\n    yield 2\n    yield 3\nprint(type(my_generator()))\n# 15 Module Type:    module\nimport math\nprint(type(math))\nprint(\"----------------------------------------------------------------\")\n# 16 Callables Type: callable",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "my_bool_func",
+        "kind": 2,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "def my_bool_func(x):\n    return bool(x)\nprint(my_bool_func(1));\nprint(my_bool_func(0));\nx=4000\nprint(isinstance(x,bool))",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "x = {1, 2, 3}  # set\ny = frozenset({1, 2, 3})  # frozenset\n# Example of set mutability\nx.add(4)       # Works fine with set\n# y.add(4)     # Would raise AttributeError - frozenset has no add method\nx={1,2,3}\ny=frozenset({1,2,3})\nprint(type(x),type(y))\n# 6 Boolean Type:    bool\nx=True",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "y = frozenset({1, 2, 3})  # frozenset\n# Example of set mutability\nx.add(4)       # Works fine with set\n# y.add(4)     # Would raise AttributeError - frozenset has no add method\nx={1,2,3}\ny=frozenset({1,2,3})\nprint(type(x),type(y))\n# 6 Boolean Type:    bool\nx=True\nprint(type(x))",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "x = 3+5j\ny = 5j\nz = -5j\nprint(type(x),\"Complex\",x.real)\nprint(type(y))\nprint(type(z))\n# Boolean data types \nx=[]\nprint(type(x),\"empty list []\",bool(x))\nx={}",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "y = 5j\nz = -5j\nprint(type(x),\"Complex\",x.real)\nprint(type(y))\nprint(type(z))\n# Boolean data types \nx=[]\nprint(type(x),\"empty list []\",bool(x))\nx={}\nprint(type(x),\"empty dict {}\",bool(x))",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "fundamentals.data-types",
+        "description": "fundamentals.data-types",
+        "peekOfCode": "z = -5j\nprint(type(x),\"Complex\",x.real)\nprint(type(y))\nprint(type(z))\n# Boolean data types \nx=[]\nprint(type(x),\"empty list []\",bool(x))\nx={}\nprint(type(x),\"empty dict {}\",bool(x))\nx=None",
+        "detail": "fundamentals.data-types",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_datetime",
+        "kind": 2,
+        "importPath": "fundamentals.datetime_examples",
+        "description": "fundamentals.datetime_examples",
+        "peekOfCode": "def get_current_datetime():\n    current_datetime = datetime.now()\n    print(current_datetime.today(),\"today date\")\n    print(current_datetime.weekday(),\"weekday\")\n    print(current_datetime.strftime(\"%d/%m/%Y %H:%M:%S\"))\n    # formatted datetime object with additional information\n    print(current_datetime.strftime(\"%Y-%m-%d %H:%M:%S %Z%z\"))\n    # display in 12 hours format\n    print(current_datetime.strftime(\"%I:%M:%S %p\"))\n    print(f\"Current date and time: {current_datetime}\")",
+        "detail": "fundamentals.datetime_examples",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_age",
+        "kind": 2,
+        "importPath": "fundamentals.datetime_examples",
+        "description": "fundamentals.datetime_examples",
+        "peekOfCode": "def calculate_age(birth_date):\n    today = date.today()\n    return today.year - birth_date.year - (\n        (today.month, today.day) < (birth_date.month, birth_date.day)\n    )\nbirthday = date(1971, 7, 21)\nprint(calculate_age(birthday)) \n''''\nformat codes: \n\"%a\"- short version of the day of the week (e.g., Wed)",
+        "detail": "fundamentals.datetime_examples",
+        "documentation": {}
+    },
+    {
+        "label": "new_date",
+        "kind": 5,
+        "importPath": "fundamentals.datetime_examples",
+        "description": "fundamentals.datetime_examples",
+        "peekOfCode": "new_date = datetime.now() + timedelta(weeks=3)\ndef calculate_age(birth_date):\n    today = date.today()\n    return today.year - birth_date.year - (\n        (today.month, today.day) < (birth_date.month, birth_date.day)\n    )\nbirthday = date(1971, 7, 21)\nprint(calculate_age(birthday)) \n''''\nformat codes: ",
+        "detail": "fundamentals.datetime_examples",
+        "documentation": {}
+    },
+    {
+        "label": "birthday",
+        "kind": 5,
+        "importPath": "fundamentals.datetime_examples",
+        "description": "fundamentals.datetime_examples",
+        "peekOfCode": "birthday = date(1971, 7, 21)\nprint(calculate_age(birthday)) \n''''\nformat codes: \n\"%a\"- short version of the day of the week (e.g., Wed)\n\"%A\"- full name of the day of the week (e.g., Wednesday)\n\"%b\"- short version of the month (e.g., Sep)\n\"%B\"- full name of the month (e.g., September)\n\"%y\"- two-digit year (e.g., 18,22,24,25)\n\"%Y\"- four-digit year (e.g., 2018,2022,2024,2025)",
+        "detail": "fundamentals.datetime_examples",
+        "documentation": {}
+    },
+    {
+        "label": "outer_function",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def outer_function(x):\n    def inner_function(y):\n        return x + y\n    return inner_function\nclosure = outer_function(10)\nprint(closure(5))  # Outputs: 15\nprint(closure(10))  # Outputs: 20\ndef counter_factory(start=0):\n    count = start\n    def counter():",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "counter_factory",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def counter_factory(start=0):\n    count = start\n    def counter():\n        nonlocal count  # Needed to modify enclosing variable\n        # (it means it behaving as outer fun variable)\n        count += 1\n        return count\n    return counter\nc1 = counter_factory()\nprint(c1())  # 1",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "decorator_function",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def decorator_function(func):\n    def wrapper_function(*args, **kwargs):\n        print(\"Before function execution\")\n        func(*args, **kwargs)\n        print(\"After function execution\")\n    return wrapper_function\ndef wait_for_seconds(seconds):\n    import time\n    time.sleep(seconds)\ndef do_later_work(duration_sec):",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "wait_for_seconds",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def wait_for_seconds(seconds):\n    import time\n    time.sleep(seconds)\ndef do_later_work(duration_sec):\n    print(\"Doing later work\")\n    wait_for_seconds(duration_sec)\n    print('My work is done')\n    return \"Done\"\nmy_func=decorator_function(do_later_work)\nmy_func(0)",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "do_later_work",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def do_later_work(duration_sec):\n    print(\"Doing later work\")\n    wait_for_seconds(duration_sec)\n    print('My work is done')\n    return \"Done\"\nmy_func=decorator_function(do_later_work)\nmy_func(0)\n# istead of assigning the function to a variable, \n# we can use it directly as decorator with @ symbol\nprint(\"\\n --------------- -------------- Decorator Example ----------------- \\n\")",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "do_later_work_with_decorator",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def do_later_work_with_decorator(sec):\n    print(\"Doing later work\")\n    wait_for_seconds(sec)\n    print('My work is done')\n    return \"Done\"\ndo_later_work_with_decorator(0)\ndef repeat(n):\n    def decorator(func):\n        def wrapper(*args, **kwargs):\n            for _ in range(n):",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "repeat",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def repeat(n):\n    def decorator(func):\n        def wrapper(*args, **kwargs):\n            for _ in range(n):\n                func(*args, **kwargs)\n        return wrapper\n    return decorator\n@repeat(3)\ndef say_hello(name):\n    print(f\"Hello {name}\")",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def say_hello(name):\n    print(f\"Hello {name}\")\nsay_hello(\"Alice\")\nfrom functools import cache\nimport time\n# either we can use @cache decorator or mannually caching the results\ndef fibonacci(n,mp):\n    if n <= 1:\n        return n\n    if n not in mp:",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "fibonacci",
+        "kind": 2,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "def fibonacci(n,mp):\n    if n <= 1:\n        return n\n    if n not in mp:\n        mp[n] = fibonacci(n-1, mp) + fibonacci(n-2, mp)\n    return mp[n]\nstart_time = time.time()\nmp={}\nprint(fibonacci(899,mp))\nprint(f\"Time taken: {time.time() - start_time} seconds\")",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "closure",
+        "kind": 5,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "closure = outer_function(10)\nprint(closure(5))  # Outputs: 15\nprint(closure(10))  # Outputs: 20\ndef counter_factory(start=0):\n    count = start\n    def counter():\n        nonlocal count  # Needed to modify enclosing variable\n        # (it means it behaving as outer fun variable)\n        count += 1\n        return count",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "c1 = counter_factory()\nprint(c1())  # 1\nprint(c1())  # 2\nc2 = counter_factory(10)\nprint(c2())  # 11 \n# decorators in python\n# decorators are functions that take another function as an argument and return a new function.\n# it is much similar to highrer order functions in js \ndef decorator_function(func):\n    def wrapper_function(*args, **kwargs):",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "c2",
+        "kind": 5,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "c2 = counter_factory(10)\nprint(c2())  # 11 \n# decorators in python\n# decorators are functions that take another function as an argument and return a new function.\n# it is much similar to highrer order functions in js \ndef decorator_function(func):\n    def wrapper_function(*args, **kwargs):\n        print(\"Before function execution\")\n        func(*args, **kwargs)\n        print(\"After function execution\")",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "fundamentals.decorators",
+        "description": "fundamentals.decorators",
+        "peekOfCode": "start_time = time.time()\nmp={}\nprint(fibonacci(899,mp))\nprint(f\"Time taken: {time.time() - start_time} seconds\")",
+        "detail": "fundamentals.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "validate_age",
+        "kind": 2,
+        "importPath": "fundamentals.exceptions",
+        "description": "fundamentals.exceptions",
+        "peekOfCode": "def validate_age(age):\n    if age < 18:\n        raise ValueError(\"Age cannot be less than 18\")\n    return age\nvalidate_age(29)\n# reading a file \ntry:\n    file=open(\"./fundamentals/demo.txt\",\"r\")\n    print(file.read())\n    file.close()",
+        "detail": "fundamentals.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "add_numbers",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def add_numbers(a, b):\n    \"\"\"\n    This function adds two numbers.\n    \"\"\"\n    return a + b\ndef add_numbers_args(*args):\n    print(type(args))\n    \"\"\"\n    This function adds all the arguments passed to it.\n    \"\"\"",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add_numbers_args",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def add_numbers_args(*args):\n    print(type(args))\n    \"\"\"\n    This function adds all the arguments passed to it.\n    \"\"\"\n    return sum(args)\n# calling the function\nprint(add_numbers(3, 5),type(add_numbers))\nprint(add_numbers_args(2,3,45,6,5,6,44),type(add_numbers_args))\n# we can pass the arguments as key-value pairs",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add_numbers_keys",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def add_numbers_keys(*args,**kwargs):\n    print(type(args), args)\n    print(type(kwargs), kwargs)\n    \"\"\"\n    This function adds all the key-value pairs passed to it.\n    \"\"\"\n    return sum(kwargs.values())\n# calling the function with key-value pairs\nprint(add_numbers_keys(a=2, b=3),type(add_numbers_keys))\n# we can also pass arguments as a list of tuples",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add_numbers_list_of_tuples",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def add_numbers_list_of_tuples(*args):\n    print(type(args), args)\n    \"\"\"\n    This function adds all the numbers in the list of tuples passed to it.\n    \"\"\"\n    total = 0\n    for num_tuple in args:\n        total += sum(num_tuple)\n    return total\n# calling the function with a list of tuples",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "empty_function",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def empty_function():\n    pass\nprint(\"-------------------------\")\n# Positional-Only Arguments - we can specify that a function can have ONLY positional \n# arguments, or ONLY keyword arguments.\n# To specify that a function can have only positional arguments, add , / after the arguments:\ndef positional_only_args(a, /, b, c,*args,**kwargs):\n    print(type(args), args)\n    print(type(kwargs), kwargs)\n    return a + b + c",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "positional_only_args",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def positional_only_args(a, /, b, c,*args,**kwargs):\n    print(type(args), args)\n    print(type(kwargs), kwargs)\n    return a + b + c\nprint(positional_only_args(1, 2, 3))  # Positional-only arguments\ndef my_function(x, /):\n      print(x)\n# my_function(x = 3)  #error got positional-only atguments as keyword arguments\n# Keyword-Only Arguments\n# we can specify a function that can have only accept keyword arguments using \"*\"",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def my_function(x, /):\n      print(x)\n# my_function(x = 3)  #error got positional-only atguments as keyword arguments\n# Keyword-Only Arguments\n# we can specify a function that can have only accept keyword arguments using \"*\"\nprint(\"-------------------keyword arguments only---------------------------------------------\")\ndef keyword_only_args(*, a, b, c):\n    return a + b + c\nprint(keyword_only_args(c=98,a=-18,b=-80))  # Keyword-only arguments\n# Combine Positional-Only and Keyword-Only",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "keyword_only_args",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def keyword_only_args(*, a, b, c):\n    return a + b + c\nprint(keyword_only_args(c=98,a=-18,b=-80))  # Keyword-only arguments\n# Combine Positional-Only and Keyword-Only\n# Any argument before the / , are positional-only, and any argument after the *, are keyword-only.\ndef combine_positional_and_keyword_args(a, /, b, c, *, d, e):\n    return a + b + c + d + e\nprint(combine_positional_and_keyword_args(1, 2, 3, d=4, e=5))  # Combine Positional-Only and Keyword-Only arguments\n# Lamda Function \nprint(\"-------------------Lamda Function---------------------------------------------\")",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "combine_positional_and_keyword_args",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def combine_positional_and_keyword_args(a, /, b, c, *, d, e):\n    return a + b + c + d + e\nprint(combine_positional_and_keyword_args(1, 2, 3, d=4, e=5))  # Combine Positional-Only and Keyword-Only arguments\n# Lamda Function \nprint(\"-------------------Lamda Function---------------------------------------------\")\n'''\nA lamda function is an anonymous function\nit can take any number of arguments but can only have one expression\nSyntax:\nlambda arguments : expression",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "fun_closer",
+        "kind": 2,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "def fun_closer(initial_value):\n    count = [initial_value]\n    return lambda value: (count.insert(0,count[0] + value) or count[0])\ncounter = fun_closer(10)\nprint(counter(5))   # Output: 15 \nprint(counter(-3))  # Output: 12 \nprint(counter(2))   # Output: 14 \nprint(counter(-4))  # Output: 10",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 5,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "add = lambda x, y: x + y\nprint(add(3, 5))\nfrom functools import reduce\nmultiplication_n = lambda *args: reduce(lambda x, y: x * y, args)\nprint(multiplication_n(1, 2, 3,4,5,6)) # multiplication\ndef fun_closer(initial_value):\n    count = [initial_value]\n    return lambda value: (count.insert(0,count[0] + value) or count[0])\ncounter = fun_closer(10)\nprint(counter(5))   # Output: 15 ",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "multiplication_n",
+        "kind": 5,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "multiplication_n = lambda *args: reduce(lambda x, y: x * y, args)\nprint(multiplication_n(1, 2, 3,4,5,6)) # multiplication\ndef fun_closer(initial_value):\n    count = [initial_value]\n    return lambda value: (count.insert(0,count[0] + value) or count[0])\ncounter = fun_closer(10)\nprint(counter(5))   # Output: 15 \nprint(counter(-3))  # Output: 12 \nprint(counter(2))   # Output: 14 \nprint(counter(-4))  # Output: 10",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "fundamentals.functions",
+        "description": "fundamentals.functions",
+        "peekOfCode": "counter = fun_closer(10)\nprint(counter(5))   # Output: 15 \nprint(counter(-3))  # Output: 12 \nprint(counter(2))   # Output: 14 \nprint(counter(-4))  # Output: 10",
+        "detail": "fundamentals.functions",
+        "documentation": {}
+    },
+    {
+        "label": "fib",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def fib(nums):\n    a, b = 0, 1\n    for _ in range(nums):\n        yield a\n        a, b = b, a + b\ndef get_square(nums):\n    for num in nums:\n        yield num**2\nprint(sum(get_square(fib(10))))\n# Generator expressions are a more compact way to create generators.",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "get_square",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def get_square(nums):\n    for num in nums:\n        yield num**2\nprint(sum(get_square(fib(10))))\n# Generator expressions are a more compact way to create generators.\nprint(\"Generator expressions:\")\ndef getNames():\n    yield \"John\"\n    yield \"Alice\"\n    yield \"Bob\"",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "getNames",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def getNames():\n    yield \"John\"\n    yield \"Alice\"\n    yield \"Bob\"\n    yield \"Charlie\"\nnames = getNames()\nprint(type(names))\nfor name in names:\n    print(name)\nprint(\"---------counter generator--------\")",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "counter_generator",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def counter_generator(n):\n    value=0\n    while value<n:\n        yield value\n        value+=1\ncounter = counter_generator(10)\nprint(type(counter))\nprint(next(counter))\nprint(next(counter))\nfor value in counter:",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "generate_odd_numbers",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def generate_odd_numbers():\n    num = 1\n    while True:\n        yield num\n        num += 2\nodd_numbers = generate_odd_numbers()\nprint(\"\\nOdd numbers:\")\nfor _ in range(2):\n    print(next(odd_numbers), end=\" \")\nprint()",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "generate_numbers",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def generate_numbers():\n    for i in range(10**6):  # Large range\n        yield i  # Generates one item at a time\ngen = generate_numbers()\nprint(next(gen))  # Output: 0\nprint(next(gen))  # Output: 1\ndef my_numbers():\n    for i in range(1,5):\n        yield i\nprint(\"My numbers:\")",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "my_numbers",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def my_numbers():\n    for i in range(1,5):\n        yield i\nprint(\"My numbers:\")\nfor square in get_square(my_numbers()):\n    print(square, end=\" \")\n#List Comprehensions\nprint(\"\\nList Comprehension:\")\nnumbers = [i for i in range(10)]\nprint(numbers)",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "map_handler",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def map_handler(x):\n    print(\"Map handler\",x)\n    return x**2\ndef filter_handler(x):\n    print(\"Filter handler\",x)\n    return x%2!=0\nodd_numbers=filter(filter_handler, numbers)\nprint(\"My Odd numbers:\",list(odd_numbers))\nwith_square=map(map_handler, numbers)\nprint()",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "filter_handler",
+        "kind": 2,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "def filter_handler(x):\n    print(\"Filter handler\",x)\n    return x%2!=0\nodd_numbers=filter(filter_handler, numbers)\nprint(\"My Odd numbers:\",list(odd_numbers))\nwith_square=map(map_handler, numbers)\nprint()\nprint(\"My Squared numbers:\",list(with_square))",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "names = getNames()\nprint(type(names))\nfor name in names:\n    print(name)\nprint(\"---------counter generator--------\")\ndef counter_generator(n):\n    value=0\n    while value<n:\n        yield value\n        value+=1",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "counter = counter_generator(10)\nprint(type(counter))\nprint(next(counter))\nprint(next(counter))\nfor value in counter:\n    print(value,end=\" \")\n# generators are great for handling large data sets or can handle infinite data streams.\ndef generate_odd_numbers():\n    num = 1\n    while True:",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "odd_numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "odd_numbers = generate_odd_numbers()\nprint(\"\\nOdd numbers:\")\nfor _ in range(2):\n    print(next(odd_numbers), end=\" \")\nprint()\nprint(next(odd_numbers))\n# Generators can be used with other Python features like list comprehensions, map(), and filter()\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\nsquared_numbers = (num**2 for num in numbers)\nprint(\"\\nSquared numbers:\")",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\nsquared_numbers = (num**2 for num in numbers)\nprint(\"\\nSquared numbers:\")\nfor num in squared_numbers:\n    print(num, end=\" \")\nprint(\"get fibonacci for x with squared:\")\nprint()\nprint(sum(get_square(fib(10))))\n# Generators - generate values on the fly\ndef generate_numbers():",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "squared_numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "squared_numbers = (num**2 for num in numbers)\nprint(\"\\nSquared numbers:\")\nfor num in squared_numbers:\n    print(num, end=\" \")\nprint(\"get fibonacci for x with squared:\")\nprint()\nprint(sum(get_square(fib(10))))\n# Generators - generate values on the fly\ndef generate_numbers():\n    for i in range(10**6):  # Large range",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "gen",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "gen = generate_numbers()\nprint(next(gen))  # Output: 0\nprint(next(gen))  # Output: 1\ndef my_numbers():\n    for i in range(1,5):\n        yield i\nprint(\"My numbers:\")\nfor square in get_square(my_numbers()):\n    print(square, end=\" \")\n#List Comprehensions",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "numbers = [i for i in range(10)]\nprint(numbers)\nsquared_numbers = [num**2 for num in numbers]\nprint(squared_numbers)\nprint([even_num for even_num in numbers if even_num % 2 == 0])\n# Generator expressions\nprint(\"\\nGenerator expressions:\")\nsquared_numbers = (num**2 for num in numbers)\nprint(list(squared_numbers),type(squared_numbers))\n# Map and Filter",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "squared_numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "squared_numbers = [num**2 for num in numbers]\nprint(squared_numbers)\nprint([even_num for even_num in numbers if even_num % 2 == 0])\n# Generator expressions\nprint(\"\\nGenerator expressions:\")\nsquared_numbers = (num**2 for num in numbers)\nprint(list(squared_numbers),type(squared_numbers))\n# Map and Filter\n# map - used to apply a function to all items in an iterable\n# filter - used to create a new iterable with items that satisfy a condition",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "squared_numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "squared_numbers = (num**2 for num in numbers)\nprint(list(squared_numbers),type(squared_numbers))\n# Map and Filter\n# map - used to apply a function to all items in an iterable\n# filter - used to create a new iterable with items that satisfy a condition\nprint(\"\\nMap and Filter:\")\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\n# print all even numbers\nmy_evens=list(filter(lambda x: x % 2 == 0, numbers))\nprint(my_evens,\"----even numbers\")",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "fundamentals.generators",
+        "description": "fundamentals.generators",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\n# print all even numbers\nmy_evens=list(filter(lambda x: x % 2 == 0, numbers))\nprint(my_evens,\"----even numbers\")\n# lets square all numbers\nsquared_nums=(map(lambda x:x**2, numbers))\nprint(type(squared_nums),tuple(squared_nums),\"----squared numbers\")\ndef map_handler(x):\n    print(\"Map handler\",x)\n    return x**2",
+        "detail": "fundamentals.generators",
+        "documentation": {}
+    },
+    {
+        "label": "print_global_var",
+        "kind": 2,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "def print_global_var():\n    local_var = \"This is local variable\"\n    global_var=\"This is global variable inside function wala\"\n    print(local_var)\n    print(global_var)\nprint_global_var()\ng=\"this is a strict global variable\"\ndef print_global_var():\n    global g \n    g=\"this is a strict global variable inside function wala\"",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "print_global_var",
+        "kind": 2,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "def print_global_var():\n    global g \n    g=\"this is a strict global variable inside function wala\"\n    print(g)\nprint_global_var()\nprint(g)",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "name = input(\"Enter your name: \")\nprint(\"Hello\", name)\n# //take multiple input \nnames = input(\"Enter multiple names separated by comma: \").split(\",\")\nprint(names)\ndescription = input(\"Enter your description:\\n\")\nprint(description)\n# take input and cast into different types\nnum = int(input(\"Enter a number: \"))\nprint(num * 2,\"type of \",type(num))",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "names = input(\"Enter multiple names separated by comma: \").split(\",\")\nprint(names)\ndescription = input(\"Enter your description:\\n\")\nprint(description)\n# take input and cast into different types\nnum = int(input(\"Enter a number: \"))\nprint(num * 2,\"type of \",type(num))\n# more\nMyFloat = float(input(\"Enter a float: \"))\nprint(MyFloat * 2,\"type of\",type(MyFloat))",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "description",
+        "kind": 5,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "description = input(\"Enter your description:\\n\")\nprint(description)\n# take input and cast into different types\nnum = int(input(\"Enter a number: \"))\nprint(num * 2,\"type of \",type(num))\n# more\nMyFloat = float(input(\"Enter a float: \"))\nprint(MyFloat * 2,\"type of\",type(MyFloat))\nfruits=[\"apple\", \"mango\", \"banana\", \"cherry\"]\nf1,f2,f3,f4=fruits",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nprint(num * 2,\"type of \",type(num))\n# more\nMyFloat = float(input(\"Enter a float: \"))\nprint(MyFloat * 2,\"type of\",type(MyFloat))\nfruits=[\"apple\", \"mango\", \"banana\", \"cherry\"]\nf1,f2,f3,f4=fruits\nprint(f1,f2,f3,f4)\n\"\"\"\n# global variables",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "MyFloat",
+        "kind": 5,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "MyFloat = float(input(\"Enter a float: \"))\nprint(MyFloat * 2,\"type of\",type(MyFloat))\nfruits=[\"apple\", \"mango\", \"banana\", \"cherry\"]\nf1,f2,f3,f4=fruits\nprint(f1,f2,f3,f4)\n\"\"\"\n# global variables\nglobal_var = \"This is global variable\"\ndef print_global_var():\n    local_var = \"This is local variable\"",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "global_var",
+        "kind": 5,
+        "importPath": "fundamentals.index",
+        "description": "fundamentals.index",
+        "peekOfCode": "global_var = \"This is global variable\"\ndef print_global_var():\n    local_var = \"This is local variable\"\n    global_var=\"This is global variable inside function wala\"\n    print(local_var)\n    print(global_var)\nprint_global_var()\ng=\"this is a strict global variable\"\ndef print_global_var():\n    global g ",
+        "detail": "fundamentals.index",
+        "documentation": {}
+    },
+    {
+        "label": "json_data",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "json_data = '{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}'\n# Convert JSON string to Python dictionary\npython_dict = json.loads(json_data)\nprint(type(python_dict),python_dict)\n# print the formatted JSON data\nprint(json.dumps(python_dict, indent=4,sort_keys=True)) \n# converting Python dictionary to JSON string\njson_string = json.dumps(python_dict)\nprint(type(json_string), json_string)\n# Accessing dictionary items",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "python_dict",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "python_dict = json.loads(json_data)\nprint(type(python_dict),python_dict)\n# print the formatted JSON data\nprint(json.dumps(python_dict, indent=4,sort_keys=True)) \n# converting Python dictionary to JSON string\njson_string = json.dumps(python_dict)\nprint(type(json_string), json_string)\n# Accessing dictionary items\nprint(\"Accessing Dictionary Items:\",\"--\"*5)\nprint(\"python_dict['name']:\",python_dict['name'])",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "json_string",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "json_string = json.dumps(python_dict)\nprint(type(json_string), json_string)\n# Accessing dictionary items\nprint(\"Accessing Dictionary Items:\",\"--\"*5)\nprint(\"python_dict['name']:\",python_dict['name'])\nprint(\"python_dict['age']:\",python_dict['age'])\nprint(\"python_dict['city']:\",python_dict['city'])\n# Adding new key-value pair to dictionary\npython_dict['country']='USA'\nprint(\"After adding new item:\",python_dict)",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "dict1",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "dict1 = {'name': 'John', 'age': 30}\ndict2 = {'city1': 'New York'}\nmerged_dict = {**dict1, **dict2}\nprint(\"Merged dictionaries:\",merged_dict)\n# List of dictionaries\nlist_of_dicts = [\n    {'name': 'John', 'age': 30},\n    {'name': 'Alice', 'age': 25},\n    {'name': 'Bob', 'age': 35}\n]",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "dict2",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "dict2 = {'city1': 'New York'}\nmerged_dict = {**dict1, **dict2}\nprint(\"Merged dictionaries:\",merged_dict)\n# List of dictionaries\nlist_of_dicts = [\n    {'name': 'John', 'age': 30},\n    {'name': 'Alice', 'age': 25},\n    {'name': 'Bob', 'age': 35}\n]\n# Sorting list of dictionaries by age",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "merged_dict",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "merged_dict = {**dict1, **dict2}\nprint(\"Merged dictionaries:\",merged_dict)\n# List of dictionaries\nlist_of_dicts = [\n    {'name': 'John', 'age': 30},\n    {'name': 'Alice', 'age': 25},\n    {'name': 'Bob', 'age': 35}\n]\n# Sorting list of dictionaries by age\nsorted_list = sorted(list_of_dicts, key=lambda x: x['age'])",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "list_of_dicts",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "list_of_dicts = [\n    {'name': 'John', 'age': 30},\n    {'name': 'Alice', 'age': 25},\n    {'name': 'Bob', 'age': 35}\n]\n# Sorting list of dictionaries by age\nsorted_list = sorted(list_of_dicts, key=lambda x: x['age'])\nprint(\"Sorted list of dictionaries by age:\",sorted_list)\nsorted_list = sorted(list_of_dicts, key=lambda x: x['name'])\nprint(\"Sorted list of dictionaries by name:\",sorted_list)",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "sorted_list",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "sorted_list = sorted(list_of_dicts, key=lambda x: x['age'])\nprint(\"Sorted list of dictionaries by age:\",sorted_list)\nsorted_list = sorted(list_of_dicts, key=lambda x: x['name'])\nprint(\"Sorted list of dictionaries by name:\",sorted_list)\n# Converting list of dictionaries to JSON string\nprint(\"List of dictionaries to JSON string representation:\",\"--\"*5)\nprint(list_of_dicts)\nprint(\"---\"*5)\njson_string = json.dumps(list_of_dicts, indent=4, sort_keys=True)\nprint(\"JSON string representation of list of dictionaries:\",json_string)",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "sorted_list",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "sorted_list = sorted(list_of_dicts, key=lambda x: x['name'])\nprint(\"Sorted list of dictionaries by name:\",sorted_list)\n# Converting list of dictionaries to JSON string\nprint(\"List of dictionaries to JSON string representation:\",\"--\"*5)\nprint(list_of_dicts)\nprint(\"---\"*5)\njson_string = json.dumps(list_of_dicts, indent=4, sort_keys=True)\nprint(\"JSON string representation of list of dictionaries:\",json_string)",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "json_string",
+        "kind": 5,
+        "importPath": "fundamentals.json_example",
+        "description": "fundamentals.json_example",
+        "peekOfCode": "json_string = json.dumps(list_of_dicts, indent=4, sort_keys=True)\nprint(\"JSON string representation of list of dictionaries:\",json_string)",
+        "detail": "fundamentals.json_example",
+        "documentation": {}
+    },
+    {
+        "label": "MyStringFunc",
+        "kind": 2,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "def MyStringFunc(e):\n      print(\"🚀 ~ e:\", e)\n      return len(e)\nlist1.sort(key=MyStringFunc)\nprint(\"List sorted by length:\",list1)\nlist1=['apple', 'Banana', 'cherry', 'Date', 'elderberry']\nlist1.sort(key=lambda x : x.lower())\nprint(\"List sorted\",list1)\n# copying the list\nlist1=['apple', 'Banana', 'cherry', 'Date', 'elderberry']",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "mylist = ['apple', 'banana', 'cherry']\nmylist.insert(0,4554);\nmylist=[str(x) for x in mylist] \nprint(mylist)\nmylist.sort()\nprint(mylist)\nmylist.reverse()\nprint(mylist)\n# separate by type and then perform sort \nx=x.append([i for i in range(10)])",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "numbers = [x for x in mylist if isinstance(x, (int, float))]\nstrings = [x for x in mylist if isinstance(x, str)]\nnumbers.sort()\nstrings.sort()\nsorted_list = numbers + strings\nprint(\"Sorted after separating types:\", sorted_list)\nfor i in range(1,5):\n    print(i)\nc=[1,2,3,4]\nfor item in c:",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "strings",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "strings = [x for x in mylist if isinstance(x, str)]\nnumbers.sort()\nstrings.sort()\nsorted_list = numbers + strings\nprint(\"Sorted after separating types:\", sorted_list)\nfor i in range(1,5):\n    print(i)\nc=[1,2,3,4]\nfor item in c:\n    print(item*55)",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "sorted_list",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "sorted_list = numbers + strings\nprint(\"Sorted after separating types:\", sorted_list)\nfor i in range(1,5):\n    print(i)\nc=[1,2,3,4]\nfor item in c:\n    print(item*55)\nd=[item for item in c]\nprint(\"Dictionary\",d)\nimport time ",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "start_time = time.time()\nprint(10000 in result)\nend_time = time.time()\nprint(\"Time taken to check 5 in list: \", end_time - start_time)\nresult=set(item for item in range(100001))\nstart_time = time.time()\nprint(10000 in result)\nend_time = time.time()\nprint(\"Time taken to check 5 in set: \", end_time - start_time)\nimport sys",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "end_time",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "end_time = time.time()\nprint(\"Time taken to check 5 in list: \", end_time - start_time)\nresult=set(item for item in range(100001))\nstart_time = time.time()\nprint(10000 in result)\nend_time = time.time()\nprint(\"Time taken to check 5 in set: \", end_time - start_time)\nimport sys\n# ram in gb \nprint(\"Python version\", sys.version)",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "start_time = time.time()\nprint(10000 in result)\nend_time = time.time()\nprint(\"Time taken to check 5 in set: \", end_time - start_time)\nimport sys\n# ram in gb \nprint(\"Python version\", sys.version)\n# extend \nlist1=[1,2,3,4]\nlist2=[\"a\",\"b\",\"c\"]",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "end_time",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "end_time = time.time()\nprint(\"Time taken to check 5 in set: \", end_time - start_time)\nimport sys\n# ram in gb \nprint(\"Python version\", sys.version)\n# extend \nlist1=[1,2,3,4]\nlist2=[\"a\",\"b\",\"c\"]\nlist1.extend(list2)\nprint(\"Extended list1:\",list1)",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "fundamentals.list",
+        "description": "fundamentals.list",
+        "peekOfCode": "fruits = ['apple', 'banana', 'cherry']\nfor index, fruit in enumerate(fruits):\n    print(f'I am {index+1} and I love {fruits[index]}')\n# sorting the list \nlist1=[2,33,4,5,6,7,8,9,1]\nlist1.sort()\nprint(\"Sorted list:\",list1)\n# in reverse order or in decreasing order\nlist1.sort(reverse=True)\nprint(\"Reversed list:\",list1)",
+        "detail": "fundamentals.list",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "fundamentals.loops",
+        "description": "fundamentals.loops",
+        "peekOfCode": "result = [\"heads\",\"tails\",\"tails\",\"heads\",\"tails\",\"heads\",\"heads\",\"tails\",\"tails\",\"tails\"]\nUsing for loop figure out how many times you got heads\n'''\nresult = [\"heads\",\"tails\",\"tails\",\"heads\",\"tails\",\"heads\",\"heads\",\"tails\",\"tails\",\"tails\"]\ncount=0\nfor item in result:\n    if item==\"heads\":\n        count+=1\nprint(\"Number of heads:\",count)\nprint()",
+        "detail": "fundamentals.loops",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "fundamentals.loops",
+        "description": "fundamentals.loops",
+        "peekOfCode": "result = [\"heads\",\"tails\",\"tails\",\"heads\",\"tails\",\"heads\",\"heads\",\"tails\",\"tails\",\"tails\"]\ncount=0\nfor item in result:\n    if item==\"heads\":\n        count+=1\nprint(\"Number of heads:\",count)\nprint()\n# Print square of all numbers between 1 to 10 except even numbers\nfor i in range(1,11):\n    if i%2==0:",
+        "detail": "fundamentals.loops",
+        "documentation": {}
+    },
+    {
+        "label": "expense_list",
+        "kind": 5,
+        "importPath": "fundamentals.loops",
+        "description": "fundamentals.loops",
+        "peekOfCode": "expense_list = [2340, 2500, 2100, 3100, 2980]\nmonths_dict={\n    0:\"JAN\",\n    1:\"FEB\",\n    2:\"MAR\",\n    3:\"APR\",\n    4:\"MAY\",\n    5:\"JUN\",\n    6:\"JUL\",\n    7:\"AUG\",",
+        "detail": "fundamentals.loops",
+        "documentation": {}
+    },
+    {
+        "label": "camel_case_converter",
+        "kind": 5,
+        "importPath": "fundamentals.modules",
+        "description": "fundamentals.modules",
+        "peekOfCode": "camel_case_converter = camelcase.CamelCase()\nmy_text=\"hello, world!\"\nprint(camel_case_converter.hump(my_text))  # Output: Hello World",
+        "detail": "fundamentals.modules",
+        "documentation": {}
+    },
+    {
+        "label": "deposit",
+        "kind": 2,
+        "importPath": "fundamentals.multiprocessing_lock",
+        "description": "fundamentals.multiprocessing_lock",
+        "peekOfCode": "def deposit(balance, amount,lock):\n    for i in range(100):\n        time.sleep(0.001)  # Simulating network delay\n        lock.acquire()\n        balance.value += amount\n        lock.release ()\ndef withdraw(balance, amount,lock):\n    for i in range(100):\n        time.sleep(0.001)  # Simulating network delay\n        lock.acquire()",
+        "detail": "fundamentals.multiprocessing_lock",
+        "documentation": {}
+    },
+    {
+        "label": "withdraw",
+        "kind": 2,
+        "importPath": "fundamentals.multiprocessing_lock",
+        "description": "fundamentals.multiprocessing_lock",
+        "peekOfCode": "def withdraw(balance, amount,lock):\n    for i in range(100):\n        time.sleep(0.001)  # Simulating network delay\n        lock.acquire()\n        balance.value -= amount\n        lock.release()\nif __name__==\"__main__\":\n    balance = multiprocessing.Value(\"d\", 1000) \n    lock = multiprocessing.Lock()\n    deposit_process = multiprocessing.Process(target=deposit, args=(balance, 0.01,lock))",
+        "detail": "fundamentals.multiprocessing_lock",
+        "documentation": {}
+    },
+    {
+        "label": "complex_calculation",
+        "kind": 2,
+        "importPath": "fundamentals.multiprocessing_pool",
+        "description": "fundamentals.multiprocessing_pool",
+        "peekOfCode": "def complex_calculation(n):\n    result = 0\n    for i in range(10000):  \n        result += sum(j * j for j in range(n))\n    return result\nif __name__==\"__main__\":\n    n = 100\n    t1 = time.time()\n    serial_result = sum(complex_calculation(i) for i in range(n))\n    print(\"Serial processing or utilizing one core\", serial_result)",
+        "detail": "fundamentals.multiprocessing_pool",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_square",
+        "kind": 2,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "def calculate_square(numbers, taskType=\"io-bound\", task_complexity=4, final_result=None,queue=None):\n    print(f\"Calculating squares for numbers: {numbers} - task type: {taskType} - task complexity: {task_complexity} %\")\n    if taskType==\"io-bound\":\n        simulate_io_bound_task()\n    else:\n        do_cpu_bound_tasks(task_complexity)\n    result=[num**2 for num in numbers]\n    print(\"Result for Squared:\", result)\n    if queue is not None:\n            for i in numbers:",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_io_bound_task",
+        "kind": 2,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "def simulate_io_bound_task(n=1):\n    print(f\"Simulating IO-bound task for number: {n}\")\n    time.sleep(1)  # Simulating delay\n    print(f\"Finished IO-bound task for number: {n}\")\ndef do_cpu_bound_tasks(n=4):\n    print(f\"Simulating CPU-bound tasks for number: {n}\")\n    fibo_sum(n)\n    print(f\"Finished CPU-bound task for number: {n}\")\ndef calculate_cube(numbers, taskType=\"io-bound\", task_complexity=4, final_result=None,queue=None):\n    print(f\"Calculating cubes for numbers: {numbers} - task type: {taskType} - task complexity: {task_complexity} %\")",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "do_cpu_bound_tasks",
+        "kind": 2,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "def do_cpu_bound_tasks(n=4):\n    print(f\"Simulating CPU-bound tasks for number: {n}\")\n    fibo_sum(n)\n    print(f\"Finished CPU-bound task for number: {n}\")\ndef calculate_cube(numbers, taskType=\"io-bound\", task_complexity=4, final_result=None,queue=None):\n    print(f\"Calculating cubes for numbers: {numbers} - task type: {taskType} - task complexity: {task_complexity} %\")\n    if taskType==\"io-bound\":\n        simulate_io_bound_task()\n    else:\n        do_cpu_bound_tasks(task_complexity)",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_cube",
+        "kind": 2,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "def calculate_cube(numbers, taskType=\"io-bound\", task_complexity=4, final_result=None,queue=None):\n    print(f\"Calculating cubes for numbers: {numbers} - task type: {taskType} - task complexity: {task_complexity} %\")\n    if taskType==\"io-bound\":\n        simulate_io_bound_task()\n    else:\n        do_cpu_bound_tasks(task_complexity)\n    result=[num**3 for num in numbers]\n    if queue is not None:\n        for i in numbers:\n            queue.put(i)  # Add the result to the queue",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "fibo_sum",
+        "kind": 2,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "def fibo_sum(n):\n    a, b = 0, 1\n    sum=0\n    for _ in range(n):\n        a, b = b, a + b\n        sum+=a\n    print(\"Sum of Fibonacci numbers:\", sum)\n    return sum\nnumbers = [1, 2, 3, 4, 5]\nstart_time = time.time()",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "example_function",
+        "kind": 2,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "def example_function(args):\n       print(\"Thread is running\",args)\nstart_time=time.time()\nthread_for_square = threading.Thread(target=calculate_square, args=(numbers,))\nthread_for_cube = threading.Thread(target=calculate_cube, args=(numbers,))\nthread_for_square.start()\nthread_for_cube.start()\n# Wait for both threads to finish\nthread_for_square.join()\nthread_for_cube.join()",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5]\nstart_time = time.time()\ncalculate_square(numbers)\ncalculate_cube(numbers)\nprint(\"Time taken:\", time.time() - start_time)\n# let use the multithreading to utilize the cpu ideal time \nprint(\"------------------------------Using the threading----------------------------------\")\ndef example_function(args):\n       print(\"Thread is running\",args)\nstart_time=time.time()",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "start_time = time.time()\ncalculate_square(numbers)\ncalculate_cube(numbers)\nprint(\"Time taken:\", time.time() - start_time)\n# let use the multithreading to utilize the cpu ideal time \nprint(\"------------------------------Using the threading----------------------------------\")\ndef example_function(args):\n       print(\"Thread is running\",args)\nstart_time=time.time()\nthread_for_square = threading.Thread(target=calculate_square, args=(numbers,))",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "thread_for_square",
+        "kind": 5,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "thread_for_square = threading.Thread(target=calculate_square, args=(numbers,))\nthread_for_cube = threading.Thread(target=calculate_cube, args=(numbers,))\nthread_for_square.start()\nthread_for_cube.start()\n# Wait for both threads to finish\nthread_for_square.join()\nthread_for_cube.join()\nprint(\"Time taken:\", time.time()-start_time)\n# Note : when we do use threading module it is bound by GIL,\n#  so we may not get the ideal speedup as compared to multiprocessing",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "thread_for_cube",
+        "kind": 5,
+        "importPath": "fundamentals.multithreading",
+        "description": "fundamentals.multithreading",
+        "peekOfCode": "thread_for_cube = threading.Thread(target=calculate_cube, args=(numbers,))\nthread_for_square.start()\nthread_for_cube.start()\n# Wait for both threads to finish\nthread_for_square.join()\nthread_for_cube.join()\nprint(\"Time taken:\", time.time()-start_time)\n# Note : when we do use threading module it is bound by GIL,\n#  so we may not get the ideal speedup as compared to multiprocessing\n# in above example , we have added the delay to simulate IO bound tasks",
+        "detail": "fundamentals.multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "fundamentals.sets-example",
+        "description": "fundamentals.sets-example",
+        "peekOfCode": "x = {\"apple\", \"banana\", \"cherry\"}\nprint(x)\n# access items in set\nprint(\"Accessing Set Items:\",\"--\"*5)\nfor i in x:\n    print(i,end=\" \")\ni=0;\nprint(\"Access using while loop:\",\"--\"*5)\nwhile i<len(x):\n    print(x.pop(),end=\" \")",
+        "detail": "fundamentals.sets-example",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "fundamentals.sets-example",
+        "description": "fundamentals.sets-example",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.symmetric_difference(set2)\nprint(\"symmetric_difference\",set3)\nx1={1,2,3}\nx1_copy=x1.copy()\nx1.clear()\nprint(\"x1 after clear:\",x1)\nprint(\"x1 is x1_copy\",x1 is x1_copy)\nprint(\"x1_copy:\",x1_copy)",
+        "detail": "fundamentals.sets-example",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "fundamentals.sets-example",
+        "description": "fundamentals.sets-example",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.symmetric_difference(set2)\nprint(\"symmetric_difference\",set3)\nx1={1,2,3}\nx1_copy=x1.copy()\nx1.clear()\nprint(\"x1 after clear:\",x1)\nprint(\"x1 is x1_copy\",x1 is x1_copy)\nprint(\"x1_copy:\",x1_copy)",
+        "detail": "fundamentals.sets-example",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "fundamentals.sets-example",
+        "description": "fundamentals.sets-example",
+        "peekOfCode": "set3 = set1.symmetric_difference(set2)\nprint(\"symmetric_difference\",set3)\nx1={1,2,3}\nx1_copy=x1.copy()\nx1.clear()\nprint(\"x1 after clear:\",x1)\nprint(\"x1 is x1_copy\",x1 is x1_copy)\nprint(\"x1_copy:\",x1_copy)",
+        "detail": "fundamentals.sets-example",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "fundamentals.strings",
+        "description": "fundamentals.strings",
+        "peekOfCode": "b = \"Hello, World!\"\nprint(b[:5])\n# reverse the first 5 characters\nprint(b[:5][::-1])  \n#String Concatenation\nstr1=\"Hello\"\nstr2=\"World\"\nprint(str1+str2)\nstr=22\n# print(str+str2) # this will throw an error as string and integer can't be concatenated",
+        "detail": "fundamentals.strings",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "fundamentals.tuples",
+        "description": "fundamentals.tuples",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nif \"kiwi\" in thistuple:\n  print(\"Yes, 'apple' is in the fruits tuple\")\nelse:\n  print(\"No, 'apple' is not in the fruits tuple\")\n# to add items into tuple we need to first convert it into list and then add the items\nx=(1,2,3,4,5,6,7,8,9,10)\ny=list(x)\ny.append(11)\nx=tuple(y)",
+        "detail": "fundamentals.tuples",
+        "documentation": {}
+    },
+    {
+        "label": "MetricsCollector",
+        "kind": 6,
+        "importPath": "rest_api.metrics_collector",
+        "description": "rest_api.metrics_collector",
+        "peekOfCode": "class MetricsCollector:\n    def __init__(self, db_path: str = \"metrics.db\"):\n        self.db_path = db_path\n        self.setup_logging()\n        self.setup_database()\n    def setup_logging(self):\n        logging.basicConfig(\n            level=logging.INFO,\n            format='%(asctime)s - %(levelname)s - %(message)s'\n        )",
+        "detail": "rest_api.metrics_collector",
+        "documentation": {}
+    },
+    {
+        "label": "MetricsRetriever",
+        "kind": 6,
+        "importPath": "rest_api.metrics_collector",
+        "description": "rest_api.metrics_collector",
+        "peekOfCode": "class MetricsRetriever:\n    def __init__(self, db_path: str = \"metrics.db\"):\n        self.db_path = db_path\n    def get_metrics(self, metric_type: str = None, start_time: str = None, end_time: str = None) -> list:\n        \"\"\"Retrieve metrics from the database with optional filtering\"\"\"\n        query = 'SELECT * FROM system_metrics WHERE 1=1'\n        params = []\n        if metric_type:\n            query += ' AND metric_type = ?'\n            params.append(metric_type)",
+        "detail": "rest_api.metrics_collector",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:\n        if post['id'] == post_id:\n            post=post\n            break    ",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file_id",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:\n        if post['id'] == post_id:\n            post=post\n            break    \n    return post\ndef write_json_file(file_path, data):\n    with open(file_path, 'w') as file:",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "write_json_file",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def write_json_file(file_path, data):\n    with open(file_path, 'w') as file:\n        json.dump(data, file, indent=4)\ndef add_post_json(new_post):\n    data = read_json_file(json_file_path)\n    data.append(new_post)\n    write_json_file(json_file_path, data)\ndef update_post_json(post_id, updated_post):\n    data = read_json_file(json_file_path)\n    for post in data:",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "add_post_json",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def add_post_json(new_post):\n    data = read_json_file(json_file_path)\n    data.append(new_post)\n    write_json_file(json_file_path, data)\ndef update_post_json(post_id, updated_post):\n    data = read_json_file(json_file_path)\n    for post in data:\n        if post['id'] == post_id:\n            post.update(updated_post)\n            break",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "update_post_json",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def update_post_json(post_id, updated_post):\n    data = read_json_file(json_file_path)\n    for post in data:\n        if post['id'] == post_id:\n            post.update(updated_post)\n            break\n    write_json_file(json_file_path, data)\ndef delete_post_id_json(post_id):\n    data = read_json_file(json_file_path)\n    data = [post for post in data if post['id']!= post_id]",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post_id_json",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def delete_post_id_json(post_id):\n    data = read_json_file(json_file_path)\n    data = [post for post in data if post['id']!= post_id]\n    write_json_file(json_file_path, data)\n@app.route('/posts', methods=['GET'])\ndef get_posts():\n    return jsonify(read_json_file(file_path=json_file_path))\n@app.route('/posts', methods=['POST'])\ndef create_post():\n    new_post = request.get_json()",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "get_posts",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def get_posts():\n    return jsonify(read_json_file(file_path=json_file_path))\n@app.route('/posts', methods=['POST'])\ndef create_post():\n    new_post = request.get_json()\n    print(new_post,\"-----\")\n    add_post_json(new_post)\n    return jsonify(new_post), 201\n@app.route('/posts/<int:post_id>', methods=['PUT'])\ndef update_post(post_id):",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "create_post",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def create_post():\n    new_post = request.get_json()\n    print(new_post,\"-----\")\n    add_post_json(new_post)\n    return jsonify(new_post), 201\n@app.route('/posts/<int:post_id>', methods=['PUT'])\ndef update_post(post_id):\n    posts = read_json_file(file_path=json_file_path)\n    post = next((post for post in posts if post[\"id\"] == post_id), None)\n    if post is not None:",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "update_post",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def update_post(post_id):\n    posts = read_json_file(file_path=json_file_path)\n    post = next((post for post in posts if post[\"id\"] == post_id), None)\n    if post is not None:\n        updated_post = request.get_json()\n        update_post_json(post_id, updated_post)\n        return jsonify(updated_post)\n    else:\n        return jsonify({\"error\": \"Post not found\"}), 404\n@app.route('/posts/<int:post_id>', methods=['DELETE'])",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def delete_post(post_id):\n    try:\n        delete_post_id_json(post_id)\n        return jsonify({\"message\": \"Post deleted successfully\"}), 204\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\n        return jsonify({\"error\": \"An unexpected error occurred\"}), 500\n@app.route('/posts/<int:post_id>', methods=['GET'])\ndef get_post(post_id):\n    try:",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "get_post",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def get_post(post_id):\n    try:\n        posts = read_json_file(file_path=json_file_path)\n        post = next((post for post in posts if post[\"id\"] == post_id), None)\n        if post is not None:\n            post_data = read_json_file_id(file_path=json_file_path, post_id=post_id)\n            if post_data:\n                return jsonify(post_data)\n            else:\n                return jsonify({\"error\": \"Post data not found in file\"}), 404",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def hello():\n    return \"Hello, World!\"\n# Run the Flask application\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "app = Flask(__name__)\n# Load the initial data from the JSON file\njson_file_path = 'rest_api/data.json'\ndef read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "json_file_path",
+        "kind": 5,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "json_file_path = 'rest_api/data.json'\ndef read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:\n        if post['id'] == post_id:\n            post=post",
+        "detail": "rest_api.server",
+        "documentation": {}
+    }
+]
