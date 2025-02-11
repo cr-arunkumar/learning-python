@@ -41,6 +41,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -72,6 +88,15 @@
         "description": "optparse",
         "isExtraImport": true,
         "detail": "optparse",
+        "documentation": {}
+    },
+    {
+        "label": "peewee",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "peewee",
+        "description": "peewee",
+        "detail": "peewee",
         "documentation": {}
     },
     {
@@ -220,21 +245,21 @@
         "documentation": {}
     },
     {
-        "label": "sqlite3",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sqlite3",
-        "description": "sqlite3",
-        "detail": "sqlite3",
-        "documentation": {}
-    },
-    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "logging",
         "description": "logging",
         "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
         "documentation": {}
     },
     {
@@ -251,6 +276,38 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "create_connection",
+        "importPath": "websocket",
+        "description": "websocket",
+        "isExtraImport": true,
+        "detail": "websocket",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketException",
+        "importPath": "websocket",
+        "description": "websocket",
+        "isExtraImport": true,
+        "detail": "websocket",
         "documentation": {}
     },
     {
@@ -275,6 +332,31 @@
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "SocketIO",
+        "importPath": "flask_socketio",
+        "description": "flask_socketio",
+        "isExtraImport": true,
+        "detail": "flask_socketio",
+        "documentation": {}
+    },
+    {
+        "label": "emit",
+        "importPath": "flask_socketio",
+        "description": "flask_socketio",
+        "isExtraImport": true,
+        "detail": "flask_socketio",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
@@ -1560,17 +1642,17 @@
         "kind": 6,
         "importPath": "rest_api.metrics_collector",
         "description": "rest_api.metrics_collector",
-        "peekOfCode": "class MetricsCollector:\n    def __init__(self, db_path: str = \"metrics.db\"):\n        self.db_path = db_path\n        self.setup_logging()\n        self.setup_database()\n    def setup_logging(self):\n        logging.basicConfig(\n            level=logging.INFO,\n            format='%(asctime)s - %(levelname)s - %(message)s'\n        )",
+        "peekOfCode": "class MetricsCollector:\n    def __init__(self, api_endpoint: str, interval: int = 1):\n        self.api_endpoint = api_endpoint\n        self.interval = interval\n        self.setup_logging()\n    def collect_top_processes_metrics(self, count: int = 10):\n        try:\n            processes = []\n            for proc in psutil.process_iter():\n                proc_info = {}",
         "detail": "rest_api.metrics_collector",
         "documentation": {}
     },
     {
-        "label": "MetricsRetriever",
+        "label": "MetricsCollector",
         "kind": 6,
-        "importPath": "rest_api.metrics_collector",
-        "description": "rest_api.metrics_collector",
-        "peekOfCode": "class MetricsRetriever:\n    def __init__(self, db_path: str = \"metrics.db\"):\n        self.db_path = db_path\n    def get_metrics(self, metric_type: str = None, start_time: str = None, end_time: str = None) -> list:\n        \"\"\"Retrieve metrics from the database with optional filtering\"\"\"\n        query = 'SELECT * FROM system_metrics WHERE 1=1'\n        params = []\n        if metric_type:\n            query += ' AND metric_type = ?'\n            params.append(metric_type)",
-        "detail": "rest_api.metrics_collector",
+        "importPath": "rest_api.metrics_collector_socket",
+        "description": "rest_api.metrics_collector_socket",
+        "peekOfCode": "class MetricsCollector:\n    def __init__(self, websocket_url: str, interval: int = 1):\n        self.websocket_url = websocket_url\n        self.interval = interval\n        self.setup_logging()\n    def setup_logging(self):\n        logging.basicConfig(\n            level=logging.INFO,\n            format='%(asctime)s - %(levelname)s - %(message)s'\n        )",
+        "detail": "rest_api.metrics_collector_socket",
         "documentation": {}
     },
     {
@@ -1659,7 +1741,16 @@
         "kind": 2,
         "importPath": "rest_api.server",
         "description": "rest_api.server",
-        "peekOfCode": "def delete_post(post_id):\n    try:\n        delete_post_id_json(post_id)\n        return jsonify({\"message\": \"Post deleted successfully\"}), 204\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\n        return jsonify({\"error\": \"An unexpected error occurred\"}), 500\n@app.route('/posts/<int:post_id>', methods=['GET'])\ndef get_post(post_id):\n    try:",
+        "peekOfCode": "def delete_post(post_id):\n    try:\n        delete_post_id_json(post_id)\n        return jsonify({\"message\": \"Post deleted successfully\"}), 204\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\n        return jsonify({\"error\": \"An unexpected error occurred\"}), 500\n@app.route('/server-metrics', methods=['POST'])\ndef handle_server_metrics():\n    metrics = request.get_json()",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "handle_server_metrics",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def handle_server_metrics():\n    metrics = request.get_json()\n    print(f\"Received server metrics: {metrics}\")\n    try:\n        print(f\"Received server metrics: {json.dumps(metrics,indent=4, sort_keys=True)}\")\n        return jsonify({\"message\": \"server metrices process successfully\"}), 204\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\n        return jsonify({\"error\": \"An unexpected error occurred\"}), 500\n@app.route('/posts/<int:post_id>', methods=['GET'])",
         "detail": "rest_api.server",
         "documentation": {}
     },
@@ -1677,7 +1768,43 @@
         "kind": 2,
         "importPath": "rest_api.server",
         "description": "rest_api.server",
-        "peekOfCode": "def hello():\n    return \"Hello, World!\"\n# Run the Flask application\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "peekOfCode": "def hello():\n    return \"Hello, World!\"\n# listening for websocket events on /api/v1/server-metrics endpoint\n@socketio.on('connect', namespace=\"/\")\ndef hello_connect():\n    try:\n        print(\"Client connected to /\")\n    except Exception as e:\n        print(f\"An error occurred during connection: {e}\")\n@socketio.on('message', namespace='/api/v1/server-metrics')",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "hello_connect",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def hello_connect():\n    try:\n        print(\"Client connected to /\")\n    except Exception as e:\n        print(f\"An error occurred during connection: {e}\")\n@socketio.on('message', namespace='/api/v1/server-metrics')\ndef handle_server_metrics_event(metrics):\n    try:\n        print(f\"Received server metrics via WebSocket: {metrics}\")\n        # Process the metrics as needed",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "handle_server_metrics_event",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def handle_server_metrics_event(metrics):\n    try:\n        print(f\"Received server metrics via WebSocket: {metrics}\")\n        # Process the metrics as needed\n        emit('metrics_response', {'message': 'Metrics processed successfully'})\n    except Exception as e:\n        print(f\"An error occurred while processing metrics: {e}\")\n        emit('metrics_response', {'error': 'An error occurred while processing metrics'})\n@socketio.on('message', namespace='/')\ndef hello_world_socket(msg):",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world_socket",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def hello_world_socket(msg):\n    try:\n        print(f\"hello world socket: {msg}\")\n        # Process the message as needed\n        emit('metrics_response', {'message': 'Metrics processed successfully'})\n    except Exception as e:\n        print(f\"An error occurred while processing message: {e}\")\n        emit('metrics_response', {'error': 'An error occurred while processing message'})\n@socketio.on('disconnect', namespace='/api/v1/server-metrics')\ndef handle_disconnect():",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "handle_disconnect",
+        "kind": 2,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "def handle_disconnect():\n    try:\n        print(\"Client disconnected from /api/v1/server-metrics\")\n    except Exception as e:\n        print(f\"An error occurred during disconnection: {e}\")\n# Run the Flask application\nif __name__ == '__main__':\n    # app.run(debug=True)\n    socketio = SocketIO(app)\n    socket_server=socketio.run(app, host='0.0.0.0', port=5001, debug=True,log_output=True)",
         "detail": "rest_api.server",
         "documentation": {}
     },
@@ -1686,7 +1813,16 @@
         "kind": 5,
         "importPath": "rest_api.server",
         "description": "rest_api.server",
-        "peekOfCode": "app = Flask(__name__)\n# Load the initial data from the JSON file\njson_file_path = 'rest_api/data.json'\ndef read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:",
+        "peekOfCode": "app = Flask(__name__)\nsocketio = SocketIO(app,debug=True,cors_allowed_origins='*')\n# Load the initial data from the JSON file\njson_file_path = 'rest_api/data.json'\ndef read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None",
+        "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "socketio",
+        "kind": 5,
+        "importPath": "rest_api.server",
+        "description": "rest_api.server",
+        "peekOfCode": "socketio = SocketIO(app,debug=True,cors_allowed_origins='*')\n# Load the initial data from the JSON file\njson_file_path = 'rest_api/data.json'\ndef read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:",
         "detail": "rest_api.server",
         "documentation": {}
     },
@@ -1697,6 +1833,33 @@
         "description": "rest_api.server",
         "peekOfCode": "json_file_path = 'rest_api/data.json'\ndef read_json_file(file_path):\n    with open(file_path, 'r') as file:\n        return json.load(file)\ndef read_json_file_id(file_path, post_id):\n    json_data = read_json_file(file_path)\n    post=None\n    for post in json_data:\n        if post['id'] == post_id:\n            post=post",
         "detail": "rest_api.server",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_info",
+        "kind": 2,
+        "importPath": "top-cmd",
+        "description": "top-cmd",
+        "peekOfCode": "def get_system_info():\n    \"\"\"Get detailed system information using top command\"\"\"\n    try:\n        # First try without the -w option (for older versions of top)\n        cmd = ['top', '-b', '-n', '1']\n        result = subprocess.run(cmd, \n                              stdout=subprocess.PIPE, \n                              stderr=subprocess.PIPE,\n                              text=True,\n                              check=False)  # Changed to False to handle errors manually",
+        "detail": "top-cmd",
+        "documentation": {}
+    },
+    {
+        "label": "monitor_system",
+        "kind": 2,
+        "importPath": "top-cmd",
+        "description": "top-cmd",
+        "peekOfCode": "def monitor_system():\n    output_file = 'system_monitoring.txt'\n    print(f\"Starting system monitoring. Writing to {output_file}\")\n    print(\"Press Ctrl+C to stop monitoring\")\n    try:\n        while True:\n            # Get current timestamp\n            timestamp = datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")\n            # Get system information\n            system_info = get_system_info()",
+        "detail": "top-cmd",
+        "documentation": {}
+    },
+    {
+        "label": "check_top_installed",
+        "kind": 2,
+        "importPath": "top-cmd",
+        "description": "top-cmd",
+        "peekOfCode": "def check_top_installed():\n    \"\"\"Check if top is installed and available\"\"\"\n    try:\n        result = subprocess.run(['which', 'top'], \n                              stdout=subprocess.PIPE, \n                              stderr=subprocess.PIPE,\n                              text=True)\n        return result.returncode == 0\n    except:\n        return False",
+        "detail": "top-cmd",
         "documentation": {}
     }
 ]
