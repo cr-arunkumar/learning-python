@@ -1,0 +1,101 @@
+SR.NO,User Story,Acceptance Criteria,Priority
+1,"As a user, I want to compare CPU usage across multiple servers simultaneously so I can identify performance disparities","- Displays side-by-side CPU usage comparison for selected servers
+- Shows real-time updates of CPU usage percentages
+- Highlights servers with significantly different usage patterns
+- Provides option to sort servers by CPU utilization",High
+2,"As a system administrator, I want to correlate memory usage with CPU spikes to understand resource interdependencies","- Shows timeline view of both CPU and memory metrics
+- Highlights periods where both metrics spike together
+- Calculates correlation coefficient between metrics
+- Provides detailed analysis of correlated events",High
+3,"As a developer, I want to see how load average changes during deployment windows to optimize release timing","- Displays load average trends during specified time windows
+- Shows historical deployment timestamps
+- Identifies patterns in load average during deployments
+- Suggests optimal deployment times based on load patterns",High
+4,"As a user, I want to understand the relationship between disk I/O and network bandwidth during backup operations","- Shows concurrent disk I/O and network bandwidth metrics
+- Identifies backup operation windows
+- Calculates resource utilization during backups
+- Suggests optimal backup scheduling based on usage patterns",Medium
+5,"As a system administrator, I want to predict disk usage trends based on historical data","- Analyzes historical disk usage growth patterns
+- Projects future disk space needs
+- Identifies unusual growth spikes
+- Suggests proactive maintenance windows",High
+6,"As a developer, I want to see how my application's memory usage affects overall server memory trends","- Shows application-specific memory consumption
+- Compares against total server memory usage
+- Identifies memory leak patterns
+- Provides garbage collection impact analysis",High
+7,"As a user, I want to understand peak usage patterns across all six metrics","- Displays heat map of peak usage times for each metric
+- Identifies concurrent peak usage across metrics
+- Suggests resource optimization strategies
+- Shows historical peak usage trends",Medium
+8,"As a system administrator, I want to receive proactive alerts when metrics approach critical thresholds","- Defines customizable thresholds for each metric
+- Provides early warning when approaching thresholds
+- Shows trend analysis leading to threshold breaches
+- Suggests preventive actions",High
+9,"As a developer, I want to analyze how code changes impact all six metrics simultaneously","- Shows before/after comparison for all metrics
+- Identifies significant changes in any metric
+- Correlates changes across metrics
+- Provides impact analysis report",High
+10,"As a user, I want to understand the baseline performance for each metric","- Calculates normal operating ranges for each metric
+- Identifies seasonal patterns
+- Shows deviation from baseline
+- Updates baseline calculations periodically",Medium
+11,"As a system administrator, I want to compare current metrics against historical averages","- Shows real-time vs historical comparison
+- Calculates statistical significance of variations
+- Identifies unusual patterns
+- Provides trend analysis",High
+12,"As a developer, I want to understand resource usage patterns during specific application events","- Tracks all metrics during specified events
+- Shows resource usage correlation
+- Identifies performance bottlenecks
+- Provides optimization suggestions",High
+13,"As a user, I want to see how different metrics affect each other during high-load periods","- Shows inter-metric correlations during peak loads
+- Identifies resource bottlenecks
+- Suggests load balancing strategies
+- Provides historical comparison",Medium
+14,"As a system administrator, I want to analyze metric patterns during system maintenance","- Tracks all metrics during maintenance windows
+- Shows impact of maintenance activities
+- Identifies optimal maintenance timing
+- Provides maintenance efficiency analysis",High
+15,"As a developer, I want to understand how batch processing affects all metrics","- Shows metric changes during batch operations
+- Identifies resource consumption patterns
+- Suggests optimal batch scheduling
+- Provides performance impact analysis",High
+16,"As a user, I want to see long-term trends for all metrics","- Displays monthly/yearly trends for each metric
+- Shows seasonal patterns
+- Identifies long-term growth
+- Provides capacity planning insights",Medium
+17,"As a system administrator, I want to compare metric patterns across different server roles","- Shows metric comparisons by server type
+- Identifies role-specific patterns
+- Suggests role-based optimization
+- Provides benchmark comparisons",High
+18,"As a developer, I want to analyze the impact of different framework versions on all metrics","- Compares metrics across version changes
+- Shows performance differences
+- Identifies optimization opportunities
+- Provides migration impact analysis",High
+19,"As a user, I want to understand resource efficiency across all metrics","- Calculates resource utilization efficiency
+- Identifies underutilized resources
+- Suggests optimization strategies
+- Provides cost analysis",Medium
+20,"As a system administrator, I want to analyze metric behavior during failover events","- Shows metric changes during failover
+- Identifies performance impact
+- Measures recovery time
+- Provides reliability analysis",High
+21,"As a developer, I want to understand how different programming languages affect server metrics","- Compares resource usage by language
+- Shows performance characteristics
+- Identifies optimization opportunities
+- Provides efficiency analysis",Medium
+22,"As a user, I want to see how virtual machine migration affects all metrics","- Tracks metrics during VM migration
+- Shows performance impact
+- Measures migration efficiency
+- Provides optimization suggestions",High
+23,"As a system administrator, I want to analyze metric patterns during peak business hours","- Shows business hour impact on metrics
+- Identifies peak usage patterns
+- Suggests resource allocation strategies
+- Provides capacity planning insights",High
+24,"As a developer, I want to understand how different databases affect server metrics","- Compares database engine impact
+- Shows resource usage patterns
+- Identifies optimization opportunities
+- Provides performance analysis",High
+25,"As a user, I want to analyze metric patterns during different seasons","- Shows seasonal variation in metrics
+- Identifies yearly patterns
+- Suggests seasonal planning
+- Provides historical comparison",Medium

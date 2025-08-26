@@ -351,6 +351,15 @@
         "documentation": {}
     },
     {
+        "label": "pyautogui,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyautogui.",
+        "description": "pyautogui.",
+        "detail": "pyautogui.",
+        "documentation": {}
+    },
+    {
         "label": "subprocess",
         "kind": 6,
         "isExtraImport": true,

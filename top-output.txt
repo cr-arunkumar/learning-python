@@ -1,0 +1,5 @@
+root               988   0.0  0.0 410293760   3136   ??  Ss   10:39AM   0:00.02 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+root               929   0.0  0.1 410334656  14752   ??  Ss   10:39AM   0:00.64 /System/Library/CoreServices/SubmitDiagInfo server-init
+nirmalsinhrathod   603   0.0  0.1 410372560   9984   ??  S    10:39AM   0:00.61 /usr/libexec/secinitd
+root               525   0.0  0.1 410363536   9056   ??  Ss   10:39AM   0:00.11 /System/Library/CoreServices/osanalyticshelper server-init
+_locationd         513   0.0  0.0 410364032   5104   ??  S    10:38AM   0:00.32 /usr/libexec/secinitd

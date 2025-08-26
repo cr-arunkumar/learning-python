@@ -1,6 +1,9 @@
 from flask import Flask, jsonify,request
+from flask_socketio import SocketIO, emit
 import json
+import peewee
 app = Flask(__name__)
+socketio = SocketIO(app,debug=True,cors_allowed_origins='*')
 
 # Load the initial data from the JSON file
 json_file_path = 'rest_api/data.json'
@@ -71,6 +74,18 @@ def delete_post(post_id):
     except Exception as e:
         print(f"An error occurred: {e}")
         return jsonify({"error": "An unexpected error occurred"}), 500
+    
+@app.route('/server-metrics', methods=['POST'])
+def handle_server_metrics():
+    metrics = request.get_json()
+    print(f"Received server metrics: {metrics}")
+    try:
+        print(f"Received server metrics: {json.dumps(metrics,indent=4, sort_keys=True)}")
+        return jsonify({"message": "server metrices process successfully"}), 204
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return jsonify({"error": "An unexpected error occurred"}), 500
+
 
 @app.route('/posts/<int:post_id>', methods=['GET'])
 def get_post(post_id):
@@ -93,6 +108,45 @@ def get_post(post_id):
 def hello():
     return "Hello, World!"
 
+# listening for websocket events on /api/v1/server-metrics endpoint
+@socketio.on('connect', namespace="/")
+def hello_connect():
+    try:
+        print("Client connected to /")
+    except Exception as e:
+        print(f"An error occurred during connection: {e}")
+
+@socketio.on('message', namespace='/api/v1/server-metrics')
+def handle_server_metrics_event(metrics):
+    try:
+        print(f"Received server metrics via WebSocket: {metrics}")
+        # Process the metrics as needed
+        emit('metrics_response', {'message': 'Metrics processed successfully'})
+    except Exception as e:
+        print(f"An error occurred while processing metrics: {e}")
+        emit('metrics_response', {'error': 'An error occurred while processing metrics'})
+
+@socketio.on('message', namespace='/')
+def hello_world_socket(msg):
+    try:
+        print(f"hello world socket: {msg}")
+        # Process the message as needed
+        emit('metrics_response', {'message': 'Metrics processed successfully'})
+    except Exception as e:
+        print(f"An error occurred while processing message: {e}")
+        emit('metrics_response', {'error': 'An error occurred while processing message'})
+
+@socketio.on('disconnect', namespace='/api/v1/server-metrics')
+def handle_disconnect():
+    try:
+        print("Client disconnected from /api/v1/server-metrics")
+    except Exception as e:
+        print(f"An error occurred during disconnection: {e}")
+
 # Run the Flask application
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    socketio = SocketIO(app)
+    socket_server=socketio.run(app, host='0.0.0.0', port=5001, debug=True,log_output=True)
+    # logging web socker server
+    # print(f"Web socket server started on {socket_server}")    
